@@ -15,6 +15,8 @@ This is a new test post to test the authoring experience and GitHub versioning f
 
 Interview: 
 
+![null](/img/91615172-find-a-lump-on-cats-skin-632x475.jpg)
+
 There are 2 goals for the Expectations Interview:
 
 1\.       Assess
