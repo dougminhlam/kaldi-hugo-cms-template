@@ -1,5 +1,5 @@
 ---
-title: Our Coffee
+title: Our Coffee wwerwr werwre
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
@@ -71,6 +71,7 @@ testimonials:
       stance on empowering farmers and transparency.
   - author: Author
     quote: Wow is this need a lookup reference
+  - quote: Can I make this
 full_image: /img/products/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
@@ -101,6 +102,7 @@ pricing:
       plan: Custom
       price: '?'
 ---
+
 
 
 
