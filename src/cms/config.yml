@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-- name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "FAQ" # Used in the UI, ie.: "New Post"
     folder: "_faqs"
     create: true # Allow users to create new documents in this collection
@@ -53,11 +53,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Question", name: "title", widget: "string", tagname: "h1"}
       - {label: "Answer", name: "body", widget: "markdown"}
 
-  - name: "settings"
-    label: "Settings"
-    editor:
-      preview: false
-    files:
+    - name: "settings"
+      label: "Settings"
+      editor:
+        preview: false
+     files:
       - name: "general"
         label: "Site Settings"
         file: "_data/settings.json"
