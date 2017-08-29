@@ -46,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
   - name: "locations"
-    label: "locations/San Diego"
+    label: "locations/San Diego/downtown/parks/zoo"
     files:
       - file: "site/content/products.md"
         label: "Products Page"
